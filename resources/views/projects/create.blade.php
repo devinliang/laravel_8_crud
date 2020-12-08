@@ -1,10 +1,11 @@
 @extends('layouts.app')
 
+@section('title','新增專案')
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Add New Project</h2>
+                <h2>新增專案計畫</h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-primary" href="{{ route('projects.index') }}" title="Go back"> <i class="fas fa-backward "></i> </a>
